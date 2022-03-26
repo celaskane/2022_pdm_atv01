@@ -1,22 +1,27 @@
 .rotulo1{
-    height: 60%;
+    float: left;
+    height: 170px;
     width: 30%;
     background-color: grey;
-    padding-bottom: 10%;
+    border: solid darkgrey;
+    border-radius: 8px;
 }
 .rotulo2{
-    margin-left: 35%;
-    height: 60%;
+    float: right;
+    height: 170px;
     width: 30%;
     background-color: grey;
-    padding-bottom: 10%;
+    border: solid darkgrey;
+    border-radius: 8px;
+    margin-left: 25px;
 }
 .rotulo3{
-    margin-left: 70%;
-    height: 60%;
+    float: right;
+    height: 170px;
     width: 30%;
     background-color: grey;
-    padding-bottom: 10%;
+    border: solid darkgrey;
+    border-radius: 8px;
 }
 #texto{
     text-align: center;
