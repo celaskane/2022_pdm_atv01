@@ -13,6 +13,11 @@ const App = () => {
         borderRadius: 8,
         borderWidth: 0.5
     }
+    const nomesMedicos = {
+        medico1: 'Gregor Samsa',
+        medico2: 'Maria Feodorovna',
+        medico3: 'aaa'
+    }
     return (
         //elemento 1
         <div style={estilos1}>
@@ -22,8 +27,11 @@ const App = () => {
             padding: 24, border: 'solid lightgray', borderRadius: 8, 
             borderWidth: 0.1}}>
                 <div className="rotulo1"></div>
-                <div className="rotulo2"></div>
-                <div className="rotulo3"></div>
+                <div className="rotulo2">
+                    <img id="img3" src="https://tinyurl.com/mv5tb93s" alt="quem é ela?"></img>
+                </div>
+                <div className="rotulo3">
+                </div>
             </div>
         </div>
     )
