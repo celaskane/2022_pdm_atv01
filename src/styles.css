@@ -2,26 +2,29 @@
     float: left;
     height: 170px;
     width: 30%;
-    background-color: grey;
+    background-color: lightgray;
     border: solid darkgrey;
     border-radius: 8px;
+    border-width: 0.1px;
 }
 .rotulo2{
     float: right;
     height: 170px;
     width: 30%;
-    background-color: grey;
+    background-color: lightgray;
     border: solid darkgrey;
     border-radius: 8px;
+    border-width: 0.1px;
     margin-left: 25px;
 }
 .rotulo3{
     float: right;
     height: 170px;
     width: 30%;
-    background-color: grey;
+    background-color: lightgrey;
     border: solid darkgrey;
     border-radius: 8px;
+    border-width: 0.1px;
 }
 #texto{
     text-align: center;
