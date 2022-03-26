@@ -30,7 +30,7 @@ const App = () => {
             borderWidth: 0.1}}>
                 {/* Elemento 3: Estilo definido com classe CSS definida em um arquivo à parte */}
                 <div className="rotulo1">
-
+                    <img id="img2" src="" alt="Mr. K"></img>
                     <p style={{textAlign: 'center'}}>{nomesMedicos.medico1}</p>
                 </div>
                 <div className="rotulo2">
@@ -38,7 +38,7 @@ const App = () => {
                     <p style={{textAlign: 'center'}}>{nomesMedicos.medico2}</p>
                 </div>
                 <div className="rotulo3">
-
+                    <img id="img2" src={process.env.PUBLIC_URL + '/foto2.jpg'} alt=""/>
                     <p style={{textAlign: 'center'}}>{nomesMedicos.medico3}</p>
                 </div>
             </div>
