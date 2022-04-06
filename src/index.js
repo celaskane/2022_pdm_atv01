@@ -17,7 +17,7 @@ const App = () => {
     //Nomes dos médicos definidos em um objeto JSON
     const nomesMedicos = {
         medico1: 'Gregor Samsa',
-        medico2: 'Maria Feodorovna',
+        medico2: 'Bluma Zeigarnik',
         medico3: 'João Silva'
     }
     return (
@@ -32,12 +32,12 @@ const App = () => {
                 {/* Elemento 3: Estilo definido com classe CSS definida em um arquivo à parte */}
                 <div className="rotulo1">
                     {/* Primeira imagem acessada da pasta Images usando a instrução import */}
-                    <img id="img" src={img1} alt="András Arató"></img>
+                    <img id="img" src={img1} alt="med01"></img>
                     <p style={{textAlign: 'center'}}>{nomesMedicos.medico1}</p>
                 </div>
                 <div className="rotulo2">
                     {/* Segunda imagem acessada usando um link https comum */}
-                    <img id="img" src="https://tinyurl.com/mv5tb93s" alt="quem é ela?"></img>
+                    <img id="img" src="https://tinyurl.com/mv5tb93s" alt="med02"></img>
                     <p style={{textAlign: 'center'}}>{nomesMedicos.medico2}</p>
                 </div>
                 <div className="rotulo3">
